@@ -1,0 +1,25 @@
+{
+  "name": "angular-session-module",
+  "homepage": "https://github.com/me-ventures/angular-session-module",
+  "authors": [
+    "EvaLok <squidstock@hotmail.com>"
+  ],
+  "description": "module, for sessions",
+  "main": "src/session.js",
+  "keywords": [
+    "sessions",
+    "login",
+    "satellizer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "satellizer": "^0.15.5"
+  }
+}

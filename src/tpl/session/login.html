@@ -1,0 +1,9 @@
+<a
+	data-ng-if=" ! isAuthenticated()"
+	data-ng-click="showLoginDialog()"
+>Sign In / Register</a>
+
+<a
+	data-ng-if="isAuthenticated()"
+	data-ui-sref="account"
+>Account</a>
